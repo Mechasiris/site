@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@400;700&display=swap');
+
+body{
+	font-family: 'Onest', sans-serif;
+	margin: 0;
+background-color: background: rgb(25,60,255);
+background: linear-gradient(90deg, rgba(25,60,255,1) 10%, rgba(0,192,132,1) 25%, rgba(110,183,255,1) 50%, rgba(0,192,132,1) 75%, rgba(25,60,255,1) 90%);;
+}
+.fa{
+	color: cyan;
+	font-size: 7em;
+}
+.fa-camera{
+	color: black;
+	font-size: 3em;
+}
+.fa-heart{
+	color: red;
+	font-size: 4em;
+}
+h1{
+	font-family: 'Onest', sans-serif;
+	text-align:center;
+	font-size: 4em;
+	color: white;
+}
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+
+}
+img{
+	display: block;
+	margin: 0 auto;
+}
+footer{
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+	font-size: .75em;
+}
+nav{
+	background-color:cyan ;
+	border-top: 2px black solid;
+	border-bottom: 2px black solid;
+	padding: 5px;
+}
+
+h2 { 
+	color: whitesmoke;
+	background-color: white; 
+}
+.gallery .preview{
+    width:100%;
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+	display: inline-block;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+a:link{
+	color: red;
+}
+a:visited{
+	color: red;
+}
+a:hover{
+	color: blue;
+}
+a:active{
+	color: black;
+}
+
+nav ul{
+	list-style-type:none;
+	text-align:center;
+}
+
+nav li{
+	display:inline;
+}
+
+nav a{
+	text-decoration:none;
+	padding-right: 10px;
+}
+
+nav a:link{
+	color:purple;
+}
+
+nav a:visited{
+	color:purple;
+}
+
+nav a:hover{
+	color:yellow;
+}
+
+nav a:active{
+	color:blue;
+}
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
